@@ -6,4 +6,12 @@
         <!--<item name="android:windowBackground">@color/window_background</item>-->
         <!--<item name="android:navigationBarColor">@color/navigation_bar</item>-->
     </style>
+
+        <style name="DarkTheme" parent="android:Theme.Holo">
+            <item name="android:actionBarStyle">@style/DarkActionBar</item>
+        </style>
+
+        <style name="DarkActionBar" parent="android:Widget.Holo.Light.ListView">
+            <item name="android:background">@android:color/transparent</item>
+        </style>
 </resources>
